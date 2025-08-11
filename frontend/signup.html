@@ -410,7 +410,7 @@
             const errorMessage = document.getElementById('errorMessage');
             const errorText = document.getElementById('errorText');
             
-const API_BASE_URL = 'https://sakshisana.onrender.com';
+const API_BASE_URL = 'https://street-sustain.onrender.com';
 
 
             // Form validation
@@ -498,8 +498,8 @@ const API_BASE_URL = 'https://sakshisana.onrender.com';
                         // Redirect after delay
                         setTimeout(() => {
                             window.location.href = formData.role === 'vendor' ? 
-                                '/vendor-dashboard.html' : 
-                                '/supplier-dashboard.html';
+                                '/login.html' : 
+                                '/login.html';
                         }, 2000);
                     } else {
                         // Show error message
